@@ -1,0 +1,45 @@
+dynaconf_merge = true
+
+[default]
+    mode = "default"
+
+    [default.login]
+        session_time = 5
+        login_field = "username"
+
+    [default.errors]
+        global = ""
+
+
+[development]
+    mode = "development"
+
+    [development.login]
+        session_time = 5
+        login_field = "username"
+
+    [development.errors]
+        global = ""
+
+
+[test]
+    mode = "test"
+
+    [test.login]
+        session_time = 5
+        login_field = "username"
+
+    [test.errors]
+        global = ""
+
+
+
+[production]
+    mode = "production"
+
+    [production.login]
+        session_time = 5
+        login_field = "username"
+
+    [production.errors]
+        global = ""
