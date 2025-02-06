@@ -4,7 +4,7 @@ import datetime
 from config.config import settings
 
 
-console_log = logging.getLogger("myapp")
+console_log = logging.getLogger("django")
 
 
 def generate_access_token(user):
